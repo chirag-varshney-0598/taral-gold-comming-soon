@@ -4,10 +4,15 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div>
+        <Image src="/images/gold.png" alt="gold_img" width={100} height={100} />
+      </div>
       <div className={styles.center}>
         <h3 style={{ color: '#9f9f45' }}>TARAL GOLD </h3>
-
-        <div>
+        <div style={{ marginTop: '10px' }}>
+          <h6>A tarality product.</h6>
+        </div>
+        <div style={{ marginTop: '20px' }}>
           <div style={{ textAlign: 'center' }}>
             <h1>
               <span>C</span>
@@ -24,9 +29,6 @@ export default function Home() {
               <span>N</span>
             </h1>
           </div>
-        </div>
-        <div style={{ marginTop: '10px' }}>
-          <h6>A tarality product.</h6>
         </div>
       </div>
     </main>

@@ -1,11 +1,12 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
   background-image: url("/images/bg-taral-gold.jpg");
+  /* background-color: black; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +82,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 1rem 0;
 
   flex-direction: column;
   color: #fff;
@@ -148,19 +149,23 @@
   .card {
     padding: 1rem 2.5rem;
   }
-
+  .main {
+    padding: 2rem 20px;
+  }
   .card h2 {
     margin-bottom: 0.5rem;
   }
-
-  .center {
-    padding: 8rem 0 6rem;
+  .center h1 {
+    font-size: 35px !important;
   }
+  /* .center {
+    padding: 8rem 0 6rem;
+  } */
 
-  .center::before {
+  /* .center::before {
     transform: none;
     height: 300px;
-  }
+  } */
 
   .description {
     font-size: 0.8rem;
