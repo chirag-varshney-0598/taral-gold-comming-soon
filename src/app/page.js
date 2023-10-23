@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.center}>
         <h3 style={{ color: '#9f9f45' }}>TARAL GOLD </h3>
         <div style={{ marginTop: '10px' }}>
-          <h6>A tarality product.</h6>
+          <h6>A Tarality product.</h6>
         </div>
         <div style={{ marginTop: '20px' }}>
           <div style={{ textAlign: 'center' }}>
